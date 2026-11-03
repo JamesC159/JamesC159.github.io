@@ -43,5 +43,15 @@
   }, { rootMargin: '-45% 0px -50% 0px' });
   sections.forEach((s) => spy.observe(s));
 
+  // Back to top: scroll the window itself (works with the sticky nav)
+  document.querySelectorAll('a[href="#top"]').forEach((a) =>
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+      history.replaceState(null, '', location.pathname + location.search);
+    })
+  );
+
   document.getElementById('year').textContent = new Date().getFullYear();
 })();
