@@ -1,6 +1,6 @@
 # jamesc159.github.io
 
-Personal portfolio for James Combs — Platform Engineer.
+Personal portfolio.
 
 Plain static HTML/CSS/JS, no build step. GitHub Pages serves the repository root.
 
