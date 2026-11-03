@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>James Combs — Full Stack Software Engineer</title>
-  <meta name="description" content="James Combs is a full stack software engineer in Minneapolis–St. Paul building internal developer platforms, serverless AWS systems, and React/Next.js applications." />
-  <meta property="og:title" content="James Combs — Full Stack Software Engineer" />
-  <meta property="og:description" content="Internal developer platforms, serverless AWS, React/Next.js, Backstage, OpenShift, ArgoCD and Terraform." />
+  <title>James Combs — Platform Engineer</title>
+  <meta name="description" content="James Combs is a platform engineer at Thrivent building Backstage-based developer platforms and enterprise AI tooling, with a full stack background in React/Next.js and serverless AWS." />
+  <meta property="og:title" content="James Combs — Platform Engineer" />
+  <meta property="og:description" content="Platform engineering, enterprise AI tooling, Backstage, OpenShift, ArgoCD, Terraform, React/Next.js and serverless AWS." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://jamesc159.github.io/" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/14241111?v=4" />
@@ -50,12 +50,13 @@
     <section class="hero">
       <div class="wrap hero__grid">
         <div class="hero__copy reveal">
-          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Full Stack Software Engineer · Thrivent</p>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Platform Engineer · Thrivent</p>
           <h1 class="hero__title">I build the platforms <em>other engineers</em> build on.</h1>
           <p class="hero__lede">
-            I'm James — a full stack engineer in the Minneapolis–St. Paul area working on enterprise
-            internal developer platforms. I ship React/Next.js front ends, serverless AWS back ends, and
-            the GitOps plumbing that connects them: Backstage, OpenShift, ArgoCD, GitHub CI/CD and Terraform.
+            I'm James — a platform engineer at Thrivent, modernizing the company's AI posture and
+            accelerating developer productivity enterprise-wide. I make AI resources discoverable and
+            trustworthy in Backstage, and build the golden paths on OpenShift, ArgoCD, GitHub CI/CD and
+            Terraform that let engineers serve themselves.
           </p>
           <div class="hero__cta">
             <a class="btn btn--primary" href="#experience">See my work</a>
@@ -68,14 +69,14 @@
           <img class="avatar" src="https://avatars.githubusercontent.com/u/14241111?v=4" alt="James Combs's GitHub avatar" width="96" height="96" />
           <dl class="facts">
             <div><dt>Based in</dt><dd>Minneapolis–St. Paul, MN</dd></div>
-            <div><dt>Focus</dt><dd>Internal developer platforms</dd></div>
+            <div><dt>Focus</dt><dd>Platform engineering &amp; AI tooling</dd></div>
             <div><dt>Shipping since</dt><dd>2016 · Unisys intern</dd></div>
             <div><dt>Patent</dt><dd>US 11,017,242</dd></div>
           </dl>
           <pre class="term" aria-hidden="true"><span class="p">$</span> whoami
-james.combs --role=fullstack
+james.combs --role=platform
 <span class="p">$</span> kubectl get stack
-<span class="ok">react</span>  <span class="ok">nextjs</span>  <span class="ok">aws</span>  <span class="ok">argocd</span></pre>
+<span class="ok">backstage</span>  <span class="ok">openshift</span>  <span class="ok">argocd</span>  <span class="ok">bedrock</span></pre>
         </aside>
       </div>
 
@@ -84,7 +85,6 @@ james.combs --role=fullstack
           <li><strong>7+</strong><span>years building production software</span></li>
           <li><strong>4</strong><span>organizations: Thrivent, CaringBridge, BCBS MN, Unisys</span></li>
           <li><strong>1</strong><span>U.S. patent in computer vision</span></li>
-          <li><strong>3.72</strong><span>GPA · B.S. Computer Science, cum laude</span></li>
         </ul>
       </div>
     </section>
@@ -109,8 +109,9 @@ james.combs --role=fullstack
           </p>
           <p>
             Since then I've delivered customer-facing serverless microservices for web and mobile at Blue Cross
-            and Blue Shield of Minnesota, built Next.js and AWS AppSync products at CaringBridge, and now help
-            drive an organization-wide Backstage implementation at Thrivent. Along the way I've mentored interns,
+            and Blue Shield of Minnesota, built Next.js and AWS AppSync products at CaringBridge, and moved into platform engineering at
+            Thrivent — first building the Backstage platform and golden paths, and now leading the AI Toolkit
+            effort to make enterprise AI resources discoverable, governed, and useful in daily engineering work. Along the way I've mentored interns,
             interviewed engineers, and carried the pager.
           </p>
         </div>
@@ -129,17 +130,39 @@ james.combs --role=fullstack
           <li class="job reveal">
             <div class="job__meta">
               <span class="job__date">Nov 2024 — Present</span>
-              <span class="job__loc">United States</span>
+              <span class="job__loc">United States · Remote</span>
             </div>
             <div class="job__body">
-              <h3>Full Stack Software Engineer <span class="at">@ Thrivent</span></h3>
+              <h3>Platform Engineer <span class="at">@ Thrivent</span></h3>
               <p>
-                Transforming development processes and internal tooling infrastructure. I design, build, and
-                maintain developer tools and am part of an organization-wide <strong>Backstage</strong>
-                implementation aimed at streamlining workflows, improving developer productivity, and fostering
-                innovation across the company.
+                Modernizing Thrivent's AI posture and accelerating developer productivity enterprise-wide. On the
+                <strong>AI Toolkit</strong> effort, I apply a platform engineering background to make AI resources
+                discoverable in Backstage, trustworthy, and usable in daily engineering work.
               </p>
-              <ul class="tags"><li>Backstage</li><li>OpenShift</li><li>ArgoCD</li><li>Helm</li><li>GitHub Actions</li><li>React</li></ul>
+              <details>
+                <summary>AI Toolkit responsibilities</summary>
+                <ul>
+                  <li>Shaping the AI Toolkit's long-term vision and architecture through ADRs and partnerships with AI groups across the company.</li>
+                  <li>Cataloging enterprise AI resources in Backstage as a single governed source for discovery, adoption, and team contributions.</li>
+                  <li>Building reusable agentic workflows with GitHub Copilot, AWS Bedrock, and open-source agent tooling, plus AI-assisted vulnerability remediation with InfoSec.</li>
+                  <li>Creating rules of governance for MCP servers.</li>
+                  <li>Defining standards for AI resources: what makes a good or bad skill, hook, prompt, and more.</li>
+                  <li>Designing and building analytics platforms that surface insights and metrics on AI adoption across the enterprise.</li>
+                  <li>Leading Flash Builds: embedded engagements that automate manual processes and coach teams on AI tooling.</li>
+                </ul>
+              </details>
+              <details>
+                <summary>Platform engineering experience</summary>
+                <ul>
+                  <li>Migrating services and products enterprise-wide.</li>
+                  <li>Architecting Backstage plugins and React components, including Kubernetes integration, software templates, and AI Toolkit discovery features.</li>
+                  <li>Building and maintaining the Backstage platform on OpenShift, ArgoCD, and GitHub CI/CD to enable engineering self-service.</li>
+                  <li>Designing golden paths and templates that standardize deployment and reduce onboarding time.</li>
+                  <li>Configuring Kubernetes plugin RBAC, API endpoints, and cluster connectivity for deployment visibility.</li>
+                  <li>Managing cloud resources with Terraform for consistent environments.</li>
+                </ul>
+              </details>
+              <ul class="tags"><li>Backstage</li><li>GitHub Copilot</li><li>AWS Bedrock</li><li>MCP</li><li>OpenShift</li><li>ArgoCD</li><li>Kubernetes</li><li>Terraform</li><li>React</li></ul>
             </div>
           </li>
 
@@ -316,6 +339,10 @@ james.combs --role=fullstack
 
         <div class="skills reveal">
           <div class="skill-group">
+            <h3>AI platform</h3>
+            <ul class="tags"><li>GitHub Copilot</li><li>AWS Bedrock</li><li>MCP servers</li><li>Agentic workflows</li><li>AI governance</li><li>Adoption analytics</li></ul>
+          </div>
+          <div class="skill-group">
             <h3>Front end</h3>
             <ul class="tags"><li>React</li><li>Next.js</li><li>React Native</li><li>TypeScript</li><li>GraphQL</li><li>tRPC</li></ul>
           </div>
@@ -328,8 +355,12 @@ james.combs --role=fullstack
             <ul class="tags"><li>Backstage</li><li>OpenShift</li><li>Kubernetes</li><li>ArgoCD</li><li>Helm</li><li>Terraform</li><li>GitHub Actions</li><li>GitLab CI</li></ul>
           </div>
           <div class="skill-group">
-            <h3>Systems &amp; security</h3>
-            <ul class="tags"><li>Linux</li><li>C / C++</li><li>Python</li><li>Go</li><li>Bash</li><li>OpenSSL / FIPS 140-2</li><li>Sumo Logic</li></ul>
+            <h3>Languages</h3>
+            <ul class="tags"><li>TypeScript</li><li>JavaScript</li><li>Python</li><li>Go</li><li>C / C++</li><li>Bash</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Security &amp; observability</h3>
+            <ul class="tags"><li>DevSecOps</li><li>OpenSSL / FIPS 140-2</li><li>Linux</li><li>Sumo Logic</li></ul>
           </div>
         </div>
 
@@ -368,9 +399,9 @@ james.combs --role=fullstack
       <div class="wrap reveal">
         <p class="kicker">05 — Contact</p>
         <h2 class="contact__title">Let's build something <em>durable</em>.</h2>
-        <p class="contact__lede">Open to conversations about platform engineering, developer experience, and full-stack work.</p>
+        <p class="contact__lede">Open to conversations about platform engineering, enterprise AI tooling, and developer experience.</p>
         <div class="hero__cta">
-          <a class="btn btn--primary" href="mailto:combs.james1993@gmail.com">combs.james1993@gmail.com</a>
+          <a class="btn btn--primary" href="mailto:combs.james.c@gmail.com">combs.james.c@gmail.com</a>
           <a class="btn" href="https://www.linkedin.com/in/jamescombs" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn" href="https://github.com/JamesC159" target="_blank" rel="noopener">GitHub</a>
         </div>
